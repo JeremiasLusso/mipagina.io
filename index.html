@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practico de clase</title>
+    <link href="estilos.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1 class="titulo1">Practico de clase 09/05</h1>
+    <fieldset> <!--Cargar datos usuario-->
+        <legend>Text and Password</legend>
+        <label for="username">Username:</label>
+        <input name="username" id="username" value="Nombre de usuario" required>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" value="" required>
+    </fieldset>
+    <br>
+
+    <figure>
+        <img src="imagenes/electronica.jpg" alt= "Electronica" width = "450" height="450 style="border: 1px solid black">
+        <figcaption>Foto de una placa con componentes electronicos</figcaption>
+    </figure>
+    
+    <fieldset>
+        <span> <!--Cargar archivos varios-->
+            agregar archivos <input type="file" name="archivos" multiple>
+        </span>
+    </fieldset>
+
+
+    <fieldset>
+        <span><br>
+            <legend>indique el sexo:</legend>
+            <br> 
+            femenino <input type = "radio" name="sexo" value="femenino"><!--Valor es para asignar como bien dice valores a las etiuetas-->
+            <br> 
+            masculino <input type = "radio" name="sexo" value="masculino">
+        </span>
+    </fieldset>
+
+
+    <fieldset>
+        <span><br>
+            <legend>Cuantos idiomas hablas:</legend> 
+            <br> Español <input type="checkbox" name="idioma" value="espanol">
+            <br> Ingles <input type="checkbox" name="idioma" value="ingles">
+            <br> Italiano <input type="checkbox" name="idioma" value="italiano">
+        </span>
+    </fieldset>
+
+    <fieldset>
+        <span>
+            indique el pais de nacimiento:
+            <select name="pais" id="select">
+                <option value="" hidden>Seleccione una opcion</option>
+                <option value="1" id="Argentina">Argentina</option>
+                <option value="2" id="Colombia">Colombia</option>
+                <option value="3" id="Chile">Chile</option>
+                <option value="4" id="USA">USA</option>
+            </select>
+        </span>
+    </fieldset>
+
+    <button id="bformulario">Enviar</button>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* Paleta de colores */
+
+/* Colores principales */
+:root {
+    --color-primario: #4ecca3; /* Verde suave */
+    --color-secundario: #f9ca24; /* Amarillo suave */
+  }
+  
+  /* Colores de fondo */
+  body {
+    background-color: #f5f5f5; /* Gris claro */
+  }
+  
+  /* Colores de texto */
+  h1, h2, h3 {
+    color: #333; /* Negro suave */
+  }
+  
+  p {
+    color: #666; /* Gris medio */
+  }
+  
+  a {
+    color: var(--color-primario);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--color-secundario);
+  }
+  
+  /* Colores de botones */
+  button {
+    background-color: var(--color-primario);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--color-secundario);
+  }
+  
+  /* Colores de enlaces */
+  a {
+    color: var(--color-primario);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--color-secundario);
+  }
+
+  /*body{background-image: url(./imagenes/vecteezy_abstract-digital-background-with-technology-circuit-board_7872288.jpg);}*/
+
+  #Argentina{
+    background-color: lightblue;
+  }
+
+  #Colombia{
+    background-color: #f9ca24;
+  }
+  #Chile{
+    background-color: red;
+  }
+  #USA {
+    background-color: darkred;
+  }
+
+  #select
+  {
+    background-color: cyan;
+  }
+
+  img
+  {
+    float: left;
+    padding: 1px;
+    border: 
+}
